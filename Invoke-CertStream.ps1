@@ -24,6 +24,9 @@ Function Invoke-CertStream {
     .EXAMPLE
     Invoke-CertStream -Filter "\.pl$" | ForEach-Object { "Got $_" }
     Catch names from Poland and pipe them to further scriptblock
+
+    .NOTES
+    By Pawel Maziarz, for aptm.in/forge#powershell
     #>    
     [CmdletBinding()]
     param (
